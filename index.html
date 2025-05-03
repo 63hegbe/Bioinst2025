@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEGBE KOMLA ELOM | Biomedical Student Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    /* Contact Section */
+    .contact {
+      padding: 50px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .contact .heading {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .contact-info, .contact-form {
+      flex: 1;
+      min-width: 300px;
+      margin: 10px;
+    }
+
+    .contact-info ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .contact-info ul li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .contact-info ul li i {
+      margin-right: 10px;
+    }
+
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">BioInst</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">Expertise</a>
+      <a href="#instrumentation">Instrumentation</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hi, there! My name is</h3>
+      <h1>HEGBE KOMLA ELOM</h1>
+      <h3>Biomedical <span class="multiple-text">Engineering Student</span></h3>
+      <p>Second-year biomedical student passionate about advancing healthcare through science and innovation.</p>
+      <div class="social-media">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="home-img">
+      <img src="images/home-image.jpg" alt="Profile Photo">
+    </div>
+  </section>
+
+
+  <!-- About Me Section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2 class="heading">ABOUT <span>Me</span></h2>
+      <h3>Biomedical Engineering Student</h3>
+      <p>As a second-year biomedical engineering student, I am passionate about the intersection of healthcare and technology. My goal is to leverage my skills in engineering to develop innovative solutions that improve patient care and enhance medical devices.</p>
+      <p>I am particularly interested in the fields of medical imaging, AI in healthcare, biomaterials, and rehabilitation engineering. I am eager to learn and grow in this dynamic field, and I am excited about the opportunities that lie ahead.</p>
+      <a href="#about-modal" class="btn">Read More</a>
+    </div>
+  </section>
+
+  <!-- About Me Modal -->
+  <div id="about-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>My Information</h3>
+      <p>I am a second-year biomedical engineering student with hands-on experience in understanding how biomedical instruments function, their principles, and real-world applications. I am especially interested in the integration of software and artificial intelligence in medical imaging and diagnostics etc. My passion lies in exploring innovative solutions for healthcare challenges, particularly through advancements in biomaterials and rehabilitation engineering. Eager to keep learning and growing, I am committed to contributing to the future of healthcare technology.</p>
+    </div>
+  </div>
+
+<!-- Instrumentation Section -->
+<section class="instrumentation" id="instrumentation">
+  <h2 class="heading">Instrumentation <span>Biomedical</span></h2>
+  <div class="instrumentation-container">
+    <!-- ECG Monitoring System -->
+    <div class="instrumentation-box">
+      <img src="images/ecg.jpg" alt="ECG Monitoring System">
+      <h3>ECG Monitoring System</h3>
+      <p>The ECG Monitoring System records the electrical activity of the heart over time. It is used to detect arrhythmias, monitor heart health, and assist in diagnosing cardiac conditions. This portable device is widely used in hospitals and home care. With Bluetooth connectivity, it enables remote monitoring, making it ideal for telemedicine applications.</p>
+    </div>
+    <!-- Wireless EMG Monitoring -->
+    <div class="instrumentation-box">
+      <img src="images/emg-home-1.jpg" alt="Wireless EMG Monitoring">
+      <h3>Wireless EMG Monitoring</h3>
+      <p>The Wireless EMG Monitoring device measures muscle activity wirelessly. It is widely used in rehabilitation, sports science, and clinical research. This system provides real-time data on muscle performance and fatigue, helping athletes and patients improve their physical health. Its compact design ensures mobility and ease of use during monitoring sessions.</p>
+    </div>
+    <!-- EEG Monitoring -->
+    <div class="instrumentation-box">
+      <img src="images/eeg.jpg" alt="EEG Monitoring System">
+      <h3>EEG Monitoring System</h3>
+      <p>The EEG Monitoring System records brain activity for neurological studies. It is used to diagnose epilepsy, sleep disorders, and brain injuries. This non-invasive device provides high-resolution data for precise analysis. Lightweight and comfortable, it ensures patient convenience during long monitoring sessions, making it a preferred choice in clinical settings.</p>
+    </div>
+    <!-- Defibrillator -->
+    <div class="instrumentation-box">
+      <img src="images/def.jpg" alt="Defibrillator">
+      <h3>Defibrillator</h3>
+      <p>The Defibrillator is a life-saving device that delivers an electric shock to the heart to restore normal rhythm during cardiac arrest. It is essential in emergency care and is designed for ease of use. Modern defibrillators include voice prompts and visual instructions, making them accessible even to non-medical personnel in critical situations.</p>
+    </div>
+    <!-- Cardiac Output Monitor -->
+    <div class="instrumentation-box">
+      <img src="images/cop.jpg" alt="Cardiac Output Monitor">
+      <h3>Cardiac Output Monitor</h3>
+      <p>The Cardiac Output Monitor measures the volume of blood pumped by the heart per minute. It is crucial for assessing heart function in critical care and surgical settings. This non-invasive device provides real-time monitoring, helping clinicians make informed decisions during complex medical procedures. Its accuracy and reliability make it a vital tool in intensive care units.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Modals for Instrumentation Details -->
+<!-- ECG Monitoring System Modal -->
+<div id="ecg-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>ECG Monitoring System</h3>
+    <img src="images/ecg.jpg" alt="ECG Monitoring System">
+    <p>The ECG Monitoring System is a portable device that records the electrical activity of the heart. It is used to detect arrhythmias, monitor heart health, and assist in diagnosing cardiac conditions. With Bluetooth connectivity, it enables remote monitoring, making it ideal for telemedicine applications. This device is widely used in hospitals and home care settings.</p>
+  </div>
+</div>
+
+<!-- Wireless EMG Monitoring Modal -->
+<div id="emg-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Wireless EMG Monitoring</h3>
+    <img src="images/emg-home-1.jpg" alt="Wireless EMG Monitoring">
+    <p>The Wireless EMG Monitoring device measures muscle activity wirelessly. It is widely used in rehabilitation, sports science, and clinical research. This system provides real-time data on muscle performance and fatigue, helping athletes and patients improve their physical health. Its compact design ensures mobility and ease of use during monitoring sessions.</p>
+    <video controls>
+      <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<!-- EEG Monitoring System Modal -->
+<div id="eeg-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>EEG Monitoring System</h3>
+    <img src="images/eeg.jpg" alt="EEG Monitoring System">
+    <p>The EEG Monitoring System records brain activity for neurological studies. It is used to diagnose epilepsy, sleep disorders, and brain injuries. This non-invasive device provides high-resolution data for precise analysis. Lightweight and comfortable, it ensures patient convenience during long monitoring sessions, making it a preferred choice in clinical settings.</p>
+    <video controls>
+      <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<!-- Defibrillator Modal -->
+<div id="defibrillator-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Defibrillator</h3>
+    <img src="images/def.jpg" alt="Defibrillator">
+    <p>The Defibrillator is a life-saving device that delivers an electric shock to the heart to restore normal rhythm during cardiac arrest. It is essential in emergency care and is designed for ease of use. Modern defibrillators include voice prompts and visual instructions, making them accessible even to non-medical personnel in critical situations.</p>
+    <video controls>
+      <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+  <!-- Projects Section -->
+<section class="projects" id="projects">
+  <h2 class="heading">My <span>Projects</span></h2>
+  <div class="project-container">
+    <!-- PPG Sensor Project -->
+    <div class="project-box">
+      <img src="images/ppg-sensor.jpg" alt="PPG Sensor Project">
+      <h3>PPG Sensor Project</h3>
+      <p>A project focused on measuring heart rate and blood oxygen levels using a PPG sensor.</p>
+      <a href="#ppg-modal" class="btn">Read More</a>
+    </div>
+    <!-- Add more project boxes as needed -->
+  </div>
+</section>
+
+<!-- PPG Sensor Project Modal -->
+<div id="ppg-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>PPG Sensor Project</h3>
+    <img src="images/img1/pj.jpg" alt="PPG Sensor Project">
+    <p>
+      This project involves the use of a Photoplethysmography (PPG) sensor to measure heart rate and blood oxygen levels. 
+      The PPG sensor detects changes in blood volume in the microvascular bed of tissue using light absorption. 
+      An Arduino Uno microcontroller is used to process the data and display the results on an LCD screen. 
+      The project demonstrates the integration of hardware and software to create a functional biomedical device. 
+      It is designed to be portable and cost-effective, making it suitable for remote health monitoring. 
+      The system is calibrated to ensure accurate readings and minimize noise interference. 
+      Applications include fitness tracking, telemedicine, and early detection of cardiovascular issues. 
+      The project also explores the potential for real-time data transmission via Bluetooth for remote monitoring. 
+      This hands-on project highlights the importance of biomedical engineering in improving healthcare accessibility. 
+      It serves as a foundation for developing more advanced wearable health monitoring systems.
+    </p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2 class="heading">Get in <span>Touch</span></h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Contact Information</h3>
+      <p>If you have any questions or would like to collaborate, feel free to reach out!</p>
+      <ul>
+        <li><i class="fa-solid fa-phone"></i> Phone: <a href="tel:6385396508">6385396508</a></li>
+        <li><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:kh1275@srmist.edu.in">kh1275@srmist.edu.in</a></li>
+        <li><i class="fa-solid fa-map-marker-alt"></i> Location: Chennai, INDIA</li>
+      </ul>
+    </div>
+    <div class="contact-form">
+      <h3>Send a Message</h3>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
